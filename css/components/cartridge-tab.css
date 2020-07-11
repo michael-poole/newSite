@@ -1,0 +1,25 @@
+#cartridge-tab {
+	margin-top: 10px;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+#cartridge-tab:hover {
+	transform: translate(0, -10px);
+}
+
+#cartridge-tab img {
+	width: 100px;
+}
+
+#cartridge-tab h1 {
+	position: relative;
+	bottom: 75px;
+	left: 10px;
+	max-width: 80px;
+	text-align: center;
+	font-size: 18px;
+}

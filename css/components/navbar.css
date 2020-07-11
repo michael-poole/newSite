@@ -1,0 +1,19 @@
+#navbar {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	z-index: -1;
+}
+
+#navbar div {
+	float: right;
+	margin-right: 20px;
+}
+
+#navbar-border {
+	width: 100%;
+	height: 10px;
+	background-color: #d35310;
+	position: absolute;
+	box-shadow: 1px 5px 5px rgba(68, 68, 68, 0.6);
+}
